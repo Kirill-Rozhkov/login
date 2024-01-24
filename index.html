@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="d-flex justify-content-center">
+            <div
+                class="card d-flex flex-column justify-content-center w-50 mt-5"
+            >
+                <h4 class="card-body bg-primary text-white">Sign Up</h4>
+                <form class="d-flex flex-column m-3">
+                    <div class="form-group row">
+                        <label for="staticName" class="col-sm-2 col-form-label"
+                            >First Name</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="staticName"
+                                placeholder="Enter First Name..."
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label
+                            for="inputSurname"
+                            class="col-sm-2 col-form-label"
+                            >Last Name</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="surname"
+                                class="form-control"
+                                id="inputSurname"
+                                placeholder="Enter Last Name..."
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputScreen" class="col-sm-2 col-form-label"
+                            >Screen Name</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="screen"
+                                class="form-control"
+                                id="inputScreen"
+                                placeholder="Enter Screen Name..."
+                            />
+                        </div>
+                        <label class="col-sm-2 col-form-label">Gender</label>
+                        <div class="m-3">
+                            <div class="form-check">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="exampleRadios"
+                                    id="exampleRadios1"
+                                    value="option1"
+                                    checked
+                                />
+                                <label
+                                    class="form-check-label"
+                                    for="exampleRadios1"
+                                >
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="exampleRadios"
+                                    id="exampleRadios2"
+                                    value="option2"
+                                />
+                                <label
+                                    class="form-check-label"
+                                    for="exampleRadios2"
+                                >
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Country</label>
+                        <div class="col-sm-10">
+                            <select
+                                class="form-control form-select-sm"
+                                aria-label="Small select example"
+                            >
+                                <option selected disabled>
+                                    Choose your country...
+                                </option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label"
+                            >Email</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="Email"
+                                class="form-control"
+                                id="inputEmail"
+                                placeholder="Enter Email..."
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPhone" class="col-sm-2 col-form-label"
+                            >Phone</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="Phone"
+                                class="form-control"
+                                id="inputPhone"
+                                placeholder="Enter Phone..."
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label
+                            for="inputPassword"
+                            class="col-sm-2 col-form-label"
+                            >Password</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="inputPassword"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label
+                            for="inputPassword"
+                            class="col-sm-2 col-form-label"
+                            >Confirm Password</label
+                        >
+                        <div class="col-sm-10">
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="inputPassword"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-check m-3">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault">
+                            I agree to the Terms of Use
+                        </label>
+                    </div>
+                    <div class="d-flex">
+                        <button class="btn btn-success m-1">Submit</button>
+                        <button class="btn btn-danger m-1">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
